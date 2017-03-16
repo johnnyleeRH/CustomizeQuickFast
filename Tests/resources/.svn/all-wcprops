@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Tests/resources
+END
+biggest_value.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Tests/resources/biggest_value.xml
+END
+smallest_value.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Tests/resources/smallest_value.xml
+END
+fileCopyTest.dat
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Tests/resources/fileCopyTest.dat
+END
+unittest_optional.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Tests/resources/unittest_optional.xml
+END
+unittest_mandatory.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Tests/resources/unittest_mandatory.xml
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/FileToTCP
+END
+FileToTCP.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/FileToTCP/FileToTCP.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/FileToTCP/main.cpp
+END
+FileToTCP.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/FileToTCP/FileToTCP.cpp
+END

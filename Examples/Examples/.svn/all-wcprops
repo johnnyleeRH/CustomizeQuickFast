@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples
+END
+ExamplesPch.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/ExamplesPch.h
+END
+ConsoleLock.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/ConsoleLock.h
+END
+StopWatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/StopWatch.h
+END
+MessagePerformance.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/MessagePerformance.cpp
+END
+ValueToFix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/ValueToFix.cpp
+END
+MessageInterpreter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/MessageInterpreter.cpp
+END
+ExamplesPch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/ExamplesPch.cpp
+END
+ConsoleLock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/ConsoleLock.cpp
+END
+MessagePerformance.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/MessagePerformance.h
+END
+ValueToFix.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/ValueToFix.h
+END
+MessageInterpreter.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/sw/!svn/ver/1844/trunk/test/quickfast/quickfast-master/src/Examples/Examples/MessageInterpreter.h
+END
