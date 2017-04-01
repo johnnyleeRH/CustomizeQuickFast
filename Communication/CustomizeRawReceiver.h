@@ -164,6 +164,7 @@ namespace QuickFAST
           stop();
         }
         queue_.stopService();
+        decodefinish = true;
         return false;
       }
 
