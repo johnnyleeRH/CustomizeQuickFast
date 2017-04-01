@@ -15,6 +15,16 @@ project(InterpretApplication) : QuickFASTExample {
   }
 }
 
+project(QuickDecode) : QuickFASTExample {
+  exename = QuickDecode
+  Source_Files {
+    QuickDecode
+  }
+  Header_Files {
+    QuickDecode
+  }
+}
+
 project(TutorialApplication) : QuickFASTExample {
   exename = TutorialApplication
   Source_Files {

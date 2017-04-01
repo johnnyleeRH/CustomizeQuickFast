@@ -161,6 +161,15 @@ namespace QuickFAST{
       {
       }
 
+      //new construct for specific use
+      DecoderConfiguration(std::string templatefile, ReceiverType type, int bufcount)
+      {
+        setTemplateFileName(templatefile);
+        setReceiverType(type);
+        setBufferCount(bufcount);
+        reset_ = false;
+      }
+
       /// @brief Process the first "head" messages then stop.
       size_t head()const
       {

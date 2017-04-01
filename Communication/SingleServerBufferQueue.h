@@ -62,7 +62,6 @@ namespace QuickFAST
         //std::ostringstream msg;
         //msg << "Q:{"<< (void *) this <<  "} push @" <<(void *)buffer << std::endl;
         //std::cout << msg.str() << std::flush;
-
         incoming_.push(buffer);
         condition_.notify_one();
         return !busy_;
@@ -101,6 +100,11 @@ namespace QuickFAST
         //  std::cout << msg.str() << std::flush;
         //}
         return busy_;
+      }
+
+      void stopService()
+      {
+        busy_ = false;
       }
 
       /// @brief Service the next entry

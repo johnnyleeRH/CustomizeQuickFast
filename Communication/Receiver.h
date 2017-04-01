@@ -275,7 +275,7 @@ namespace QuickFAST
 
       /// @brief Receive a new buffer full if possible
       /// scoped_lock parameter means a mutex must be locked
-      void startReceive(boost::mutex::scoped_lock& lock)
+      virtual void startReceive(boost::mutex::scoped_lock& lock)
       {
         bool more = canStartRead();
         while( more && !stopping_)
@@ -433,7 +433,7 @@ namespace QuickFAST
       /// See: SingleServerBufferQueue for details about
       /// what a batch is.
       /// @returns true if more service is needed
-      bool serviceQueue()
+      virtual bool serviceQueue()
       {
           ++batchesProcessed_;
           if(!assembler_->serviceQueue(*this))

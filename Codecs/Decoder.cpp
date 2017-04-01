@@ -30,8 +30,7 @@ Decoder::decodeMessage(
    Messages::ValueMessageBuilder & messageBuilder)
 {
   PROFILE_POINT("decode");
-  source.beginMessage();
-
+  //source.beginMessage();
   Codecs::PresenceMap pmap(getTemplateRegistry()->presenceMapBits());
   if(this->verboseOut_)
   {
@@ -39,15 +38,16 @@ Decoder::decodeMessage(
   }
 
   static const std::string pmp("PMAP");
-  source.beginField(pmp);
+  //source.beginField(pmp);
   pmap.decode(source);
 
   static const std::string tid("templateID");
-  source.beginField(tid);
+  //source.beginField(tid);
   if(pmap.checkNextField())
   {
     template_id_t id;
     FieldInstruction::decodeUnsignedInteger(source, *this, id, tid);
+//    std::cout << "lrh checkNextField to set." << std::endl;
     setTemplateId(id);
   }
   if(verboseOut_)

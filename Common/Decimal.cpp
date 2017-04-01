@@ -114,13 +114,13 @@ Decimal::getExponent() const
 void
 Decimal::toString(std::string & value)const
 {
-#if 0
-  value = boost::lexical_cast<std::string>(double(*this));
-#elif 1
-  std::stringstream str;
-  str << double(*this);
-  value = str.str();
-#else
+//#if 0
+//  value = boost::lexical_cast<std::string>(double(*this));
+//#elif 1
+//  std::stringstream str;
+//  str << double(*this);
+//  value = str.str();
+//#else
   WorkingBuffer buffer;
   buffer.clear(true, 20);
   bool negative = false;
@@ -167,7 +167,7 @@ Decimal::toString(std::string & value)const
     buffer.push((unsigned char)'-');
   }
   value.assign((const char *)buffer.begin(), buffer.end()-buffer.begin());
-#endif
+//#endif
 }
 
 Decimal &

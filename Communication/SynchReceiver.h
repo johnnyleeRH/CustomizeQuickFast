@@ -45,7 +45,7 @@ namespace QuickFAST
       /// for this call.
       /// If this returns true then the caller should eventually
       /// call tryServiceQueue() -- but NOT from the fill buffer call.
-      bool acceptFullBuffer(
+      virtual bool acceptFullBuffer(
         LinkedBuffer * buffer,
         size_t bytesReceived,
         boost::mutex::scoped_lock & lock
