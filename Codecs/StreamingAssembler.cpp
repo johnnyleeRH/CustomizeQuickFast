@@ -43,6 +43,7 @@ StreamingAssembler::serviceQueue(
   Communication::Receiver & receiver)
 {
   // save the receiver so callbacks from the decoder can find it.
+  decoder_.reset(false);
   receiver_ = &receiver;
   bool more = true;
   while(more && !stopping_)
